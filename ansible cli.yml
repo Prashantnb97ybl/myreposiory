@@ -1,0 +1,9 @@
+---
+- name: "Create a directory"
+  hosts: localhost
+  tasks:
+  - name: "Instantiate"
+    file:
+      path: "foo"
+      state: directory
+...
